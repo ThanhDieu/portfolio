@@ -16,7 +16,6 @@ a {
   padding: 3px;
 }
 
-
 @media (hover: hover) {
   a:hover {
     color: rgb(103 232 249 / 1);

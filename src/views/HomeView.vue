@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { AboutPage } from '@/components/about';
-
+import { AboutPage } from '@/components/about'
 </script>
 
 <template>
-    <AboutPage />
+  <AboutPage />
 </template>

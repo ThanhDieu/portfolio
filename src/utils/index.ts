@@ -1,2 +1,2 @@
-export * from "./classUtils"
-export * from "./text"
+export * from './classUtils'
+export * from './text'

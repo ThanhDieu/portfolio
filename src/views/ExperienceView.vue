@@ -4,10 +4,10 @@
 </template>
 
 <script setup lang="ts">
-import { ExperiencePage } from '@/components/experience';
-
+import { ExperiencePage } from '@/components/experience'
 </script>
 
 <style>
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+}
 </style>

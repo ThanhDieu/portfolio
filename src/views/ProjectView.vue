@@ -4,10 +4,10 @@
 </template>
 
 <script setup lang="ts">
-import { ProjectPage } from '@/components/project';
-
+import { ProjectPage } from '@/components/project'
 </script>
 
 <style>
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+}
 </style>

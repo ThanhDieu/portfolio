@@ -1,7 +1,8 @@
 <template>
-  <div class="item relative mb-8 flex lg:mt-0 lg:py-4 lg:pl-[calc(var(--section-gap)/2)]">
+  <div class="item relative flex lg:mt-0 lg:py-4 lg:pl-[calc(var(--section-gap)/2)]">
     <i
-      class="flex items-center justify-center w-8 h-8 text-[var(--color-text)] lg:w-12 lg:h-12 lg:absolute lg:top-[calc(50%-25px)] lg:left-[-26px] border border-[var(--color-border)] bg-[var(--color-background)] rounded-lg">
+      class="flex items-center justify-center w-8 h-8 text-[var(--color-text)] lg:w-12 lg:h-12 lg:absolute lg:top-[calc(50%-25px)] lg:left-[-26px] border border-[var(--color-border)] bg-[var(--color-background)] rounded-lg"
+    >
       <slot name="icon"></slot>
     </i>
     <div class="details flex-1 ml-4">
@@ -42,7 +43,6 @@
 }
 
 @media (max-width: 1024px) {
-
   .item::before,
   .item::after {
     display: none;

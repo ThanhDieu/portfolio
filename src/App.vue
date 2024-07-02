@@ -7,29 +7,31 @@
       </main>
     </div>
   </div>
-  <div class="pointer-light" :style="{ top: pointerPosition.y + 'px', left: pointerPosition.x + 'px' }"></div>
+  <div
+    class="pointer-light"
+    :style="{ top: pointerPosition.y + 'px', left: pointerPosition.x + 'px' }"
+  ></div>
   <!-- <ThemeToggle /> -->
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue';
-import { RouterView } from 'vue-router';
-import { HeaderPage, ThemeToggle } from './components/common';
+import { onMounted, onUnmounted, ref } from 'vue'
+import { RouterView } from 'vue-router'
+import { HeaderPage } from './components/common'
 
-const pointerPosition = ref({ x: 0, y: 0 });
+const pointerPosition = ref({ x: 0, y: 0 })
 
 const updatePointerPosition = (event: MouseEvent) => {
-  pointerPosition.value = { x: event.clientX, y: event.clientY };
-};
+  pointerPosition.value = { x: event.clientX, y: event.clientY }
+}
 
 onMounted(() => {
-  window.addEventListener('mousemove', updatePointerPosition);
-});
+  window.addEventListener('mousemove', updatePointerPosition)
+})
 
 onUnmounted(() => {
-  window.removeEventListener('mousemove', updatePointerPosition);
-});
-
+  window.removeEventListener('mousemove', updatePointerPosition)
+})
 </script>
 
 <style scoped>
