@@ -6,7 +6,7 @@
           :name="item.name"
           :description="item.description"
           :technologies="item.technologies"
-          :link="item.link"
+          :link="item?.link"
           :position="item.position"
           :image="item?.image"
         />

@@ -5,7 +5,7 @@ defineProps<{
   name: string
   description: string
   technologies: string[]
-  link: string
+  link?: string
   position: string
   image?: string
 }>()
