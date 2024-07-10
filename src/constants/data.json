@@ -3,7 +3,7 @@
     "fullName": "Nguyễn Thanh Diệu",
     "title": "Software Engineer - Front end",
     "info": {
-      "Birthday": "1996",
+      "Birthday": "1996/09",
       "Email": "nguyenthanhdieu96@gmail.com",
       "Phone": "(+84) 373 766 052",
       "Skype_Live": "live:nguyenthanhdieu96"
@@ -36,7 +36,10 @@
     {
       "position": "Frontend",
       "company": "DISION Tech Limited Company (LLC)",
-      "periods": ["4/2022", "6/2024"],
+      "periods": [
+        "4/2022",
+        "6/2024"
+      ],
       "description": "Demonstrated expertise in CSS/SCSS, HTML, TypeScript, and JavaScript, along with proficiency in Reactjs, Nextjs, Redux, Antd, Bootstrap and Tailwinds. Efficiently managed source code using Gitea for version control. Collaborated with Product Managers to align technical solutions following requirements, ensuring effective communication and issue resolution. Provided technical support and guidance to team members, fostering a collaborative work environment. Contributed to diverse projects, showcasing adaptability and a strong aptitude for learning emerging technology.",
       "technologies": [
         "React",
@@ -55,7 +58,10 @@
     {
       "position": "Fullstack",
       "company": "EPAL Solution Corp",
-      "periods": ["6/2020", "2/2021"],
+      "periods": [
+        "6/2020",
+        "2/2021"
+      ],
       "description": "Demonstrated versatile expertise in implementing new features and resolving issues across Client-Side (JavaScript, jQuery, Angular, HTML, CSS), Server-Side (PHP, Laravel, Restful API), and Mobile App (React Native, TypeScript) development. Proficiently used version control systems like Gitea, Gitlab for source code management. Collaborated effectively with team leaders to clarify requirements and provide technical insights. Actively assisted fellow team members in overcoming technical challenges.",
       "technologies": [
         "Wordpress",
@@ -88,7 +94,12 @@
     {
       "name": "C-Store Strawberry",
       "description": "Discover our premier e-commerce platform dedicated to retail.",
-      "technologies": ["PHP", "Laravel", "Angular", "Bootstrap"],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Angular",
+        "Bootstrap"
+      ],
       "position": "Team member",
       "link": "https://www.strawberrycstore.com/",
       "image": "https://dieunguyen96-portfolio.s3.ap-southeast-2.amazonaws.com/images/c-store.png"
@@ -96,7 +107,12 @@
     {
       "name": "Sofa Âu Việt",
       "description": "A service information website in the field of reupholstering sofas and making sofas according to customer requirements.",
-      "technologies": ["PHP", "Wordpress", "Bootstrap", "cPanel"],
+      "technologies": [
+        "PHP",
+        "Wordpress",
+        "Bootstrap",
+        "cPanel"
+      ],
       "position": "Project team lead",
       "link": "https://sofaauviet.com/",
       "image": "https://dieunguyen96-portfolio.s3.ap-southeast-2.amazonaws.com/images/sofa.png"
@@ -146,7 +162,13 @@
     {
       "name": "Nova Admin",
       "description": "Application which helps to automate building backend systems with an embedded database (SQLite), real-time subscriptions, built-in authentication management, and a REST-ish API",
-      "technologies": ["NextJS", "Ant Design (Antd)", "Zustand", "Axios", "Tailwinds"],
+      "technologies": [
+        "NextJS",
+        "Ant Design (Antd)",
+        "Zustand",
+        "Axios",
+        "Tailwinds"
+      ],
       "position": "Team member"
     }
   ]
