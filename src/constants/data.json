@@ -3,7 +3,7 @@
     "fullName": "Nguyễn Thanh Diệu",
     "title": "Software Engineer - Front end",
     "info": {
-      "Birthday": "1996/09/11",
+      "Birthday": "1996/09/21",
       "Email": "nguyenthanhdieu96@gmail.com",
       "Phone": "(+84) 373 766 052",
       "Skype_Live": "live:nguyenthanhdieu96"
@@ -88,7 +88,6 @@
         "Axios",
         "Bootstrap"
       ],
-      "link": "https://github.com/ThanhDieu/swarm-admin",
       "position": "Project team lead"
     },
     {
@@ -128,8 +127,7 @@
         "Axios",
         "Tailwinds"
       ],
-      "position": "Project team lead",
-      "link": "https://github.com/ThanhDieu/booking-admin"
+      "position": "Project team lead"
     },
     {
       "name": "Orion Website",
@@ -143,8 +141,7 @@
         "Websocket",
         "Tailwinds"
       ],
-      "position": "Team member",
-      "link": "https://github.com/ThanhDieu/booking-website"
+      "position": "Team member"
     },
     {
       "name": "Taimi Admin",
